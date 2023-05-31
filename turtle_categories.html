@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turtle Sanctuary - Categories</title>
+    <link rel="icon" href="img/logo.png" />
+    <link rel="stylesheet" href="category.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      /* ... */
+
+      header nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 10px 0;
+      }
+
+      header nav ul li {
+        margin-right: 20px;
+      }
+
+      header nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        background-color: rgba(6, 53, 124, 0.5);
+      }
+
+      header nav ul li a:hover {
+        background-color: rgba(1, 18, 56, 0.2);
+      }
+
+      #introductionn {
+        text-align: center;
+        animation: fadeIn 1s ease-in-out;
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        100% {
+          opacity: 10;
+          transform: translateY(0);
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .left {
+        background-image: url("img/categories/green-sea-turtle.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+        float: left;
+        width: 24%; /* The width is 20%, by default */
+        height: 500px;
+      }
+
+      .main {
+        background-image: url("img/black-sea-turtle.jpg");
+        background-size: cover;
+        padding: 20px;
+        float: left;
+        width: 24%; /* The width is 60%, by default */
+        margin-left: 1%;
+        height: 500px;
+      }
+
+      .right {
+        background-image: url("img/categories/loggerhead-sea-turtle.jpg");
+        background-size: cover;
+        padding: 20px;
+        float: left;
+        width: 24%; /* The width is 20%, by default */
+        margin-left: 1%;
+        height: 500px;
+      }
+
+      .last {
+        background-image: url("img/categories/kemps-ridley-sea-turtle1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+        float: left;
+        width: 24%; /* The width is 20%, by default */
+        margin-left: 1%;
+        height: 500px;
+      }
+
+      .left1 {
+        background-image: url("img/categories/olive-ridley-sea-turtle1.jpg");
+        background-size: cover;
+        padding: 20px;
+        float: left;
+        width: 24%; /* The width is 20%, by default */
+        height: 500px;
+      }
+
+      .main1 {
+        background-image: url("img/categories/hawksbill-sea-turtle1.jpg");
+        background-size: cover;
+        padding: 20px;
+        float: left;
+        width: 24%; /* The width is 60%, by default */
+        margin-left: 1%;
+        height: 500px;
+      }
+
+      .right1 {
+        background-image: url("img/categories/flatback-sea-turtle1.jpg");
+        background-size: cover;
+        padding: 20px;
+        float: left;
+        width: 24%; /* The width is 20%, by default */
+        margin-left: 1%;
+        height: 500px;
+      }
+
+      .last1 {
+        background-image: url("img/categories/leatherback-sea-turtle1.jpg");
+        background-size: cover;
+        padding: 20px;
+        float: left;
+        width: 24%; /* The width is 20%, by default */
+        margin-left: 1%;
+        height: 500px;
+      }
+
+      /* Use a media query to add a break point at 800px: */
+      @media screen and (max-width: 600px) {
+        .left,
+        .left1,
+        .main,
+        .main1,
+        .right,
+        .right1,
+        .last,
+        .last1 {
+          width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+          margin: auto;
+          margin-top: 10px;
+        }
+      }
+
+      /* ... */
+    </style>
+  </head>
+  <body>
+    <div class="di"></div>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="turtle_categories.html">Turtle Categories</a></li>
+          <li>
+            <a href="hikkaduwa_turtle_hatchery.html"
+              >Hikkaduwa Turtle Hatchery</a
+            >
+          </li>
+          <li><a href="threats_to_turtles.html">Threats to Turtles</a></li>
+          <li><a href="purchase_donate.html">Purchase and Donate</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="divv">
+      <section id="introductionn">
+        <h1>Turtle Categories</h1>
+        <p>These are the Turtle Categories...</p>
+      </section>
+      <!-- ... -->
+    </div>
+
+    <div class="row">
+      <div>
+        <h1>Class - Reptilia</h1>
+        <p class="cp">
+          Reptiles are a class of cold-blooded vertebrates - their body
+          temperature varies with their environment. Reptiles include snakes,
+          lizards, crocodiles, and turtles. Reptiles have scaly skin, breathe
+          air with lungs, and have a three-chambered heart. Most reptiles lay
+          eggs, although some produce eggs that hatch internally.
+        </p>
+
+        <h1>Order - Testudines</h1>
+        <p class="cp">
+          This order includes all turtles and tortoises. It is divided into 3
+          suborders: Pleurodira (side-necked turtles), Cryptodira (freshwater
+          turtles, snapping turtles, tortoises, soft-shelled turtles, and sea
+          turtles), and Amphichelydia (a suborder of turtles that is now
+          extinct).
+        </p>
+
+        <h1>Suborder - Cryptodira</h1>
+        <p class="cp">
+          This suborder includes sea turtles, freshwater turtles, snapping
+          turtles, tortoises, and soft-shelled turtles.
+        </p>
+
+        <h1 style="margin-top: 50px">Families</h1>
+        <h3>Most scientists recognize 2 families of sea turtles:</h3>
+        <p class="cp">
+          Family Cheloniidae includes all sea turtles with scutes (horny plates)
+          covering their shells.
+        </p>
+        <p>
+          Family Dermochelyidae are scute-less turtles with only 1 modern
+          species; the leatherback turtle. A leatherback sea turtle is covered
+          with leathery skin. It is the only marine turtle whose backbone is not
+          attached to the inside of its shell.
+        </p>
+
+        <h1>Genus, species</h1>
+        <p class="cp">
+          Most scientists recognize 7 species and 1 subspecies of sea turtles:
+        </p>
+      </div>
+    </div>
+
+    <div class="row r1">
+      <div class="left">
+        <p class="pp">Green sea turtle (Chelonia mydas mydas).</p>
+      </div>
+
+      <div class="main">
+        <p class="pp">
+          black or Eastern Pacific green turtle (Chelonia mydas agassizii).
+        </p>
+      </div>
+
+      <div class="right">
+        <p class="pp">Loggerhead (Caretta caretta).</p>
+      </div>
+
+      <div class="last">
+        <p class="pp">Kemp's ridley (Lepidochelys kempii).</p>
+      </div>
+    </div>
+
+    <div class="row r2">
+      <div class="left1">
+        <p class="pp">olive ridley (Lepidochelys olivacea).</p>
+      </div>
+
+      <div class="main1">
+        <p class="pp">hawksbill (Eretmochelys imbricate).</p>
+      </div>
+
+      <div class="right1">
+        <p class="pp">flatback (Natator depressus)</p>
+      </div>
+
+      <div class="last1">
+        <p class="pp">leatherback (Dermochelys coriacea).</p>
+      </div>
+    </div>
+
+    <div class="section" style="margin-top: 60px">
+      <div class="pageitem">
+        <h2>Turtle Categories in Sri Lanka</h2>
+        <p>
+          Sri Lanka is home to five turtle species, categorized based on their
+          conservation status. The critically endangered Hawksbill turtle and
+          the endangered Green turtle are commonly found. The Olive Ridley
+          turtle and Loggerhead turtle are classified as vulnerable, while the
+          Leatherback turtle is considered endangered. Conservation efforts in
+          Sri Lanka focus on protecting nesting beaches, reducing threats, and
+          raising awareness to ensure the survival of these remarkable marine
+          creatures.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="pageitem">
+        <div class="col">
+          <h2>Hikkaduwa Beach</h2>
+          <p>
+            Hikkaduwa Beach, located on the southwestern coast of Sri Lanka, is
+            known for its beautiful sandy shores and vibrant marine life. While
+            sea turtle sightings cannot be guaranteed, it is possible to
+            encounter several turtle species in the waters of Hikkaduwa Beach.
+            The most commonly observed turtle species in this area are:
+          </p>
+          <p>
+            Green turtle (Chelonia mydas): Green turtles are frequently spotted
+            in the waters around Hikkaduwa Beach. They are known for their large
+            size and herbivorous diet.
+          </p>
+          <p>
+            Hawksbill turtle (Eretmochelys imbricata): Hawksbill turtles are
+            known for their unique and beautiful shell patterns. They can
+            occasionally be seen in the waters near Hikkaduwa Beach.
+          </p>
+          <p>
+            Loggerhead turtle (Caretta caretta): Loggerhead turtles are less
+            common but may also be encountered in the waters of Hikkaduwa Beach.
+            They are known for their powerful jaws and broad heads.
+          </p>
+        </div>
+        <div class="col google-map">
+          <h2>Hikkaduwa Turtle Hatchery Location</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.970218822987!2d80.09718982590616!3d6.134703827557422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae177e2cbcb6ead%3A0xd0adba737d2f45d9!2sHikkaduwa%20Beach!5e0!3m2!1sen!2slk!4v1685465790597!5m2!1sen!2slk"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="pageitem">
+        <div class="col">
+          <h2>Rekawa Beach</h2>
+          <p>
+            Rekawa Beach, located on the southeastern coast of Sri Lanka, is
+            renowned as a significant nesting site for sea turtles. Several
+            turtle species visit Rekawa Beach for nesting. The most commonly
+            observed turtle species in Rekawa Beach are:
+          </p>
+          <p>
+            Olive Ridley turtle (Lepidochelys olivacea): Rekawa Beach is famous
+            for its Olive Ridley turtle nesting activity. Thousands of Olive
+            Ridley turtles come ashore during their nesting season, which
+            typically occurs from April to July.
+          </p>
+          <p>
+            Green turtle (Chelonia mydas): Green turtles also nest on Rekawa
+            Beach, although in smaller numbers compared to Olive Ridley turtles.
+            These majestic turtles can be spotted during the nesting season.
+          </p>
+          <p>
+            Loggerhead turtle (Caretta caretta): Loggerhead turtles occasionally
+            visit Rekawa Beach for nesting, though their presence is relatively
+            less frequent compared to Olive Ridley and Green turtles.
+          </p>
+        </div>
+        <div class="col google-map">
+          <h2>Hikkaduwa Turtle Hatchery Location</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15870.584355224995!2d80.85033456230666!3d6.04320184162068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae6b5f45ab3a78d%3A0x40cd389a8beb90d5!2sRekawa%20Beach!5e0!3m2!1sen!2slk!4v1685466126198!5m2!1sen!2slk"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <table id="turtles" style="margin-top: 50px">
+        <tr>
+          <th>Turtle Name</th>
+          <th>Class</th>
+          <th>Family</th>
+        </tr>
+        <tr>
+          <td>Green sea turtle</td>
+          <td>Reptilia</td>
+          <td>Cheloniidae</td>
+        </tr>
+        <tr>
+          <td>Leatherback Sea Turtle</td>
+          <td>Reptilia</td>
+          <td>Dermochelyidae</td>
+        </tr>
+        <tr>
+          <td>Flatback Sea Turtle</td>
+          <td>Reptilia</td>
+          <td>Cheloniidae</td>
+        </tr>
+        <tr>
+          <td>Hawksbill Sea Turtle</td>
+          <td>Reptilia</td>
+          <td>Cheloniidae</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="container" style="margin-top: 90px">
+      <img src="img/turtle/897821.jpg" alt="Norway" style="width: 100%" />
+      <div class="text-block">
+        <h4>Fossil Record</h4>
+        <p>
+          The first turtles appeared during the Triassic period, 245 to 209
+          million years ago. The earliest known sea turtles appear in the fossil
+          record in the Early Cretaceous period, about 110 million years ago.
+          Scientists believe that modern sea turtles are derived from
+          marsh-inhabiting ancestors that lived during the Late Triassic period.
+          Fossil records show that the now-extinct sea turtle Archelon ischyros,
+          which lived 75 to 65 million years ago, was one of the largest turtles
+          that ever lived. It reached a length of 4.6 m (15 ft.) and weighed
+          more than 2,700 kg (6,000 lbs.). Together with saltwater crocodiles,
+          sea snakes, and marine iguanas, sea turtles are the only surviving
+          seawater-adapted reptiles.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p class="">© 2023 Turtle Sanctuary. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

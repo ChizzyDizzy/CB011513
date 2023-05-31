@@ -1,0 +1,306 @@
+/* purchase and donate */
+.purchase{
+    width : 100%;
+    height : 120vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(44, 48, 100);
+  }
+
+  
+  .parent{
+    width:720px;
+    height:600px;
+  /*   width:80vw;
+    height:80vh; */
+    margin:4% auto;
+    border:4px solid #F9DC5C;
+    display:grid;
+  /*   grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid: repeat(6, 100px)/repeat(4,180px);
+    cursor:pointer;
+    z-index:5;
+  }
+  .parentheader h1{
+    font-size: 40px;
+    margin-top: -20px;
+    padding-left: 850px;
+    color: #000;
+  }
+
+  .donationheader h1{
+    font-size: 40px;
+    padding-left: 850px;
+    color: #000;
+   background: linear-gradient(90deg, #2919c0c7 60%, #2919c0c7 40.1%);
+  }
+
+  .parent div{
+    transition:all 0.3s ease-in-out;
+  }
+  .parent div:nth-of-type(1){
+    grid-column:1;
+    grid-row:1/span 4;
+    background:white;
+    background-image:url(orn1.png);
+    background-size:cover;
+  }
+  .parent div:nth-of-type(1):hover{
+    background-position:-40px 0;
+  }
+  .parent div:nth-of-type(2){
+    grid-column:1;
+    grid-row:5 /span 6;
+    background:pink;
+    background-image:url(orn2.jpg);
+    background-image:url(orn2.jpg);
+      background-size:cover;
+  }
+  .parent div:nth-of-type(3){
+    grid-column:2;
+    grid-row:1/span 3;
+    background:aqua;
+    background-image:url(orn3.png);
+      background-size:cover;
+  }
+  .parent div:nth-of-type(3):hover{
+    background-position:-16px 0;
+  }
+  .parent div:nth-of-type(4){
+    grid-column:2;
+    grid-row:4 / span 6;
+    background:lemonchiffon;
+    background-image:url(orn4.png);
+    background-size:cover;
+    background-position:-5px 0;
+  }
+  .parent div:nth-of-type(4):hover{
+    background-position:-40px 0;
+  }
+  .parent div:nth-of-type(5){
+    grid-column:3;
+    grid-row:1 / span 2;
+    background:chocolate;
+    background-image:url(orn5.jpg);
+    background-size:cover;
+    background-position:-55px 0;
+  }
+  .parent div:nth-of-type(6){
+    grid-column:3;
+    grid-row:3 / span 3;
+    background:blueviolet;
+    background-image:url(orn6.jpg);
+    background-size:cover;
+  }
+  .parent div:nth-of-type(6):hover{
+    background-position:0 -10px;
+  }
+  .parent div:nth-of-type(7){
+    grid-column:3;
+    grid-row:6;
+    background:#e9e9e9;
+    background-image:url(orn7.jpg);
+    background-size:cover;
+  }
+  .parent div:nth-of-type(7):hover{
+    background-position:0px -10px;
+  }
+  .parent div:nth-of-type(8){
+    grid-column:4;
+    grid-row:1/ span 2;
+    background:blueviolet;
+    background-image:url(orn8.jpg);
+    background-size:cover;
+  }
+  .parent div:nth-of-type(9){
+    grid-column:4;
+    grid-row:3/ span 6;
+    background:pink;
+    background-image:url(orn9.jpg);
+    background-size:cover;
+  }
+  .parent div:nth-of-type(9):hover{
+    background-position:-20px -10px;
+  }
+  .parent div:hover{
+    transform:scale(1.2);
+    box-shadow:2px 2px 24px 0 black;
+  }
+  .parent text{
+    position:absolute;
+    top:28%;
+    left:-6%;
+    font-size:6em;
+    font-family: 'Black Han Sans', sans-serif;
+    color:#e3e3e3;
+    transition:all 1s;
+    transform:rotate(-90deg);
+    z-index:-1;
+  /*   writing-mode:vertical-rl; */
+  }
+  .me{
+    position:absolute;
+    bottom:4%;
+    right:2%;
+    color:#e3e3e3;
+    font-size:2em;
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    z-index:-1;
+  }
+  /* second section */
+  .donationer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #2919c0c7 60%, #2919c0c7 40.1%);
+    
+  }
+  
+  .donationer form{
+    padding:20px;
+    width:700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  }
+  
+  .donationer form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  
+  .donationer form .row .col{
+    flex:1 1 250px;
+  }
+  
+  .donationer form .row .col .title{
+    font-size: 20px;
+    color:#333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .donationer form .row .col .inputBox{
+    margin:15px 0;
+  }
+  
+  .donationer form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .donationer form .row .col .inputBox input{
+    width: 100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+  }
+  
+  .donationer form .row .col .inputBox input:focus{
+    border:1px solid #000;
+  }
+  
+  .donationer form .row .col .flex{
+    display: flex;
+    gap:15px;
+  }
+  
+  .donationer form .row .col .flex .inputBox{
+    margin-top: 5px;
+  }
+  
+  .donationer form .row .col .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+  }
+  
+  .donationer form .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background: #000201;
+    color:#fff;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .donationer form .submit-btn:hover{
+    background: #000000;
+  }
+  /* footer */
+  .containerr{
+    max-width: 1170px;
+    margin:auto;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+    background-color: #24262b;
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
